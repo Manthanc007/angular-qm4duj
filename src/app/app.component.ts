@@ -9,7 +9,7 @@ export class AppComponent  {
   flag=true;
   website={
       name:'Instagram',
-      url:'https://www.instagram.com/cmanthan007/',
+      url:'https://www.kletech.ac.in/',
       description:'Check my Portfolio',
 
   }
