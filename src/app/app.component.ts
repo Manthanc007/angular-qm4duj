@@ -2,9 +2,15 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  template: `<h1>MaNtHaN</h1>`,
+  templateUrl: `./app.component.html`,
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
+  flag=true;
+  website={
+      name:'Instagram',
+      url:'https://www.instagram.com/cmanthan007/',
+      description:'Check my Portfolio',
+
+  }
 }

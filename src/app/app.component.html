@@ -1,4 +1,8 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<br/> Url: <a [href]="website.url" [textContent]="website.name"> </a> 
+
+<br/>Url:<a href="{{website.url}}" textContent="{{website.name}}"> </a> 
+
+<p textContent="{{website.description}}"></p>
+<br/><button [disabled]="flag">Submit</button>
+<p [ngClass]="'one two'">Angular 2 Property Binding</p>
+<br/><my-msg prefixMsg= "Website name is" [sitename]="website.name"></my-msg>
